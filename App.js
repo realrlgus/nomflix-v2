@@ -1,8 +1,9 @@
 import React from "react";
-import { render } from "@testing-library/react";
 
 class App extends React.Component {
-  render() {}
+  render() {
+    return <div className="App" />;
+  }
 }
 
 export default App;
